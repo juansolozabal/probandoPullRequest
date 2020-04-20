@@ -28,15 +28,15 @@ public class main {
 		if (x==y) z = -13;
 		if (x>z) a = 'A';
 		if (!(x>z)) a = 'A';
-		if (b<=c) r = 0.0;
+		if (b<=c) r = 0.3;
 		if (r!=s) t = c/2;
 		
 //		if (x!=(r!=z)) z = 1000;
 //		if(x=y) z = 222;
-		if (x!=0) z = 333;
+		if (x!=0) z = 433;
 //		if (x) z = 444;
 		
-		x = y = z = 77;
+		x = y = z = 75;
 		if((x==y)&&(x==77)) z = 33;
 		if((x>y)||(z>22)) z= 22;
 //		if(x && y  &&z) z = 11;
@@ -56,7 +56,7 @@ public class main {
 		System.out.println("t = " + t);
 		System.out.println("j = " + j);
 		
-		x = 9;
+		x = 12;
 		y = 8;
 		if(x==7 && y<=++x) y = 35;
 		
