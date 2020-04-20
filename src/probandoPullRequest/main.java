@@ -62,21 +62,7 @@ public class main {
 		
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
-		otro();
-	}
+		}
 	
-	public static void otro()
-	{
-		int a = 7;
-		int b = 8;
-		int c = 98;
-		
-		if(a==7||b<=(++a)) b = 9;
-		
-		if(a==8||b<=(++a)) b = 10;
-		System.out.println("a: "+a);
-		System.out.println("b: "+b);
-		System.out.println("c: "+c);
-	}
 
 }
