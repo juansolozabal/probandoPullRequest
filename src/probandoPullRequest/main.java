@@ -60,12 +60,11 @@ public class main {
 		System.out.println("j = " + j);
 		
 		x = 12;
-		y = 8;
+		y = 4;
 		if(x==7 && y<=++x) y = 35;
 		
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
-		otro();
 	}
 	
 	public static void otro()
